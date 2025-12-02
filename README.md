@@ -1,7 +1,5 @@
 # Symbolic and Algebraic Reasoning in Petri Nets (CO2011) ✨
 
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow) 
-
 ## 📜 Giới Thiệu (Overview)
 
 Dự án này là bài tập lớn môn Mô hình Toán học (CO2011), tập trung vào việc phân tích mô hình mạng Petri (Petri Nets) bằng các kỹ thuật **Biểu tượng (Symbolic)** và **Đại số (Algebraic)** để khắc phục vấn đề bùng nổ không gian trạng thái.
