@@ -66,6 +66,6 @@ Bài tập này được thực hiện bởi nhóm 5 sinh viên lớp L02.
 | Trần Nhật Anh  | 2310150 | 
 | Trang Hiểu Nghĩa | 2312279 | 
 | Đoàn Đức Huy | 2210501 | 
-| ... | ... | ... |
+| :... | :... | 
 
 **Email liên hệ:** anh.nguyennghe@hcmut.edu.vn
