@@ -17,7 +17,7 @@ Dự án này bao gồm việc triển khai các chức năng phân tích mạng
 2.  **Tính toán Reachability Tường minh:** Triển khai thuật toán **BFS/DFS** cơ bản để liệt kê tường minh tất cả các trạng thái khả thi.
 3.  **Tính toán Reachability bằng BDD:** Mã hóa trạng thái bằng **BDD** và xây dựng tập trạng thái khả thi một cách biểu tượng.
 4.  **Phát hiện Deadlock bằng ILP + BDD:** Kết hợp công thức **ILP** và **BDD** để tìm kiếm (và xuất) một trạng thái deadlock khả thi (dead marking that is reachable).
-5.  **Tối ưu hóa trên Reachable Markings:** Tìm trạng thái khả thi tối ưu hóa hàm mục tiêu tuyến tính **$\max c^{\top}M$**.
+5.  **Tối ưu hóa trên Reachable Markings:** Tìm trạng thái khả thi tối ưu hóa hàm mục tiêu tuyến tính c.M.
 
 ## 🛠️ Công Nghệ và Thư viện
 
@@ -72,7 +72,7 @@ Bài tập này được thực hiện bởi nhóm 5 sinh viên lớp L02.
 | Tên Sinh Viên | Mã Số Sinh Viên | 
 | :--- | :--- | 
 | Nguyễn Hoàng Anh | 2310099 | 
-| Trịnh Thanh Bình] | 2310313 | 
+| Trịnh Thanh Bình | 2310313 | 
 | Trần Nhật Anh  | 2310150 | 
 | Trang Hiểu Nghĩa | 2312279 | 
 | Đoàn Đức Huy | 2210501 | 
