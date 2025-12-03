@@ -23,7 +23,7 @@ Dự án này bao gồm việc triển khai các chức năng phân tích mạng
 
 Ngôn ngữ lập trình được sử dụng là C++.
 
-* **Thư viện BDD:** CUDD
+* **Thư viện BDD:** CUDD và tinyxml2
 * **Thư viện ILP:** Gurobi/OR-Tools
 * **Công cụ khác:** Git, GitHub
 
@@ -31,8 +31,17 @@ Ngôn ngữ lập trình được sử dụng là C++.
 
 ### 1. Yêu Cầu Tiên Quyết (Prerequisites)
 
-* [Ví dụ: Đã cài đặt Python 3.10+]
-* [Ví dụ: Đã cài đặt thư viện BDD và ILP (Gurobi/PuLP) theo hướng dẫn.]
+*cài đặt cudd:
+```bash
+   sudo apt install git build-essential automake libtool
+   git clone https://github.com/ivmai/cudd.git
+   cd cudd
+   ./configure
+   make -j$(nproc)
+   sudo make install
+```
+
+
 
 ### 2. Các Bước Thực Hiện
 
@@ -44,16 +53,17 @@ Ngôn ngữ lập trình được sử dụng là C++.
     ```bash
     cd ten-du-an
     ```
-3.  **Cài đặt các thư viện (nếu dùng Python):**
-    ```bash
-    pip install -r requirements.txt
-    ```
-4.  **Chạy Chương trình:**
-    * **Để chạy toàn bộ các tác vụ trên mô hình kiểm thử:**
-        ```bash
-        [Lệnh chạy chính, ví dụ: python main.py <PNML_file>]
-        ```
-    * [cite_start]*(Tham khảo file `README_Instructions` chi tiết đi kèm trong thư mục Source Code để biết thêm chi tiết về cú pháp lệnh chạy)*[cite: 75].
+3.  **Chạy Chương trình:**
+   * **task 1, 2, 3, 5:**
+   ```bash
+   g++ main.cpp BDDManager.cpp -o petri -std=c++17 -ltinyxml2 -lcudd
+   ./petri test.pnml
+   ```
+   * **task 4:**
+   ```bash
+   g++ BDDManager.cpp Task4_Deadlock.cpp -o petri -std=c++17 -ltinyxml2 -lcudd
+   ./petri test.pnml
+   ```
 
 ## 🧑‍💻 Thông Tin Nhóm và Tác Giả
 
