@@ -53,7 +53,9 @@ Ngôn ngữ lập trình được sử dụng là C++.
     ```bash
     cd ten-du-an
     ```
-3.  **Chạy Chương trình:**
+3.  **Website để tạo và lấy file test.pnml:**
+    https://pes.vsb.cz/petrineteditor/#/model
+4.  **Chạy Chương trình:**
    * **task 1, 2, 3, 5:**
    ```bash
    g++ main.cpp BDDManager.cpp -o petri -std=c++17 -ltinyxml2 -lcudd
