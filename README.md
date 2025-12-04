@@ -53,7 +53,7 @@ Ngôn ngữ lập trình được sử dụng là C++.
     ```bash
     cd ten-du-an
     ```
-3.  **website để lấy file test.pnml:**
+3.  **Website để tạo và lấy file test.pnml:**
     https://pes.vsb.cz/petrineteditor/#/model
 4.  **Chạy Chương trình:**
    * **task 1, 2, 3, 5:**
