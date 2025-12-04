@@ -1,0 +1,71 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="net1" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>CleanedPetriNet</text>
+    </name>
+    <page id="page1">
+      <place id="p1">
+        <name><text>Start</text></name>
+        <graphics>
+          <position x="230" y="180"/>
+        </graphics>
+        <initialMarking><text>1</text></initialMarking>
+      </place>
+      <place id="p2">
+        <name><text>Middle1</text></name>
+        <graphics>
+          <position x="388" y="157"/>
+        </graphics>
+      </place>
+      <place id="p3">
+        <name><text>Middle2</text></name>
+        <graphics>
+          <position x="388" y="237"/>
+        </graphics>
+      </place>
+      <place id="p4">
+        <name><text>End1</text></name>
+        <graphics>
+          <position x="558" y="157"/>
+        </graphics>
+      </place>
+      <place id="p5">
+        <name><text>End2</text></name>
+        <graphics>
+          <position x="558" y="247"/>
+        </graphics>
+      </place>
+
+      <transition id="t1">
+        <name><text>Split</text></name>
+        <graphics>
+          <position x="298" y="187"/>
+        </graphics>
+      </transition>
+      <transition id="t2">
+        <name><text>ToEnd1</text></name>
+        <graphics>
+          <position x="478" y="157"/>
+        </graphics>
+      </transition>
+      <transition id="t3">
+        <name><text>ToEnd2</text></name>
+        <graphics>
+          <position x="478" y="247"/>
+        </graphics>
+      </transition>
+
+      <arc id="a1" source="p1" target="t1"/>
+      <arc id="a2" source="t1" target="p2"/>
+      <arc id="a3" source="t1" target="p3"/>
+      <arc id="a4" source="p2" target="t2"/>
+      <arc id="a5" source="t2" target="p4"/>
+      <arc id="a6" source="p3" target="t3">
+        <graphics>
+          <position x="436.4700335959203" y="238.83916064011257"/>
+        </graphics>
+      </arc>
+      <arc id="a7" source="t3" target="p5"/>
+    </page>
+  </net>
+</pnml>
