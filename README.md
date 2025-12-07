@@ -1,6 +1,6 @@
-# Symbolic and Algebraic Reasoning in Petri Nets (CO2011) ✨
+# Symbolic and Algebraic Reasoning in Petri Nets (CO2011) 
 
-## 📜 Giới Thiệu (Overview)
+## Giới Thiệu (Overview)
 
 Dự án này là bài tập lớn môn Mô hình Toán học (CO2011), tập trung vào việc phân tích mô hình mạng Petri (Petri Nets) bằng các kỹ thuật **Biểu tượng (Symbolic)** và **Đại số (Algebraic)** để khắc phục vấn đề bùng nổ không gian trạng thái.
 
@@ -9,7 +9,7 @@ Dự án này là bài tập lớn môn Mô hình Toán học (CO2011), tập tr
     * Thực hành các kỹ thuật mô hình hóa tính toán (BDD, ILP) được sử dụng rộng rãi trong Verification và AI.
 * **Mô hình:** Dự án giả định các mô hình kiểm thử là **1-safe Petri nets**.
 
-## 🚀 Các Nhiệm Vụ Đã Thực Hiện
+## Các Nhiệm Vụ Đã Thực Hiện
 
 Dự án này bao gồm việc triển khai các chức năng phân tích mạng Petri sau:
 
@@ -19,7 +19,7 @@ Dự án này bao gồm việc triển khai các chức năng phân tích mạng
 4.  **Phát hiện Deadlock bằng ILP + BDD:** Kết hợp công thức **ILP** và **BDD** để tìm kiếm (và xuất) một trạng thái deadlock khả thi (dead marking that is reachable).
 5.  **Tối ưu hóa trên Reachable Markings:** Tìm trạng thái khả thi tối ưu hóa hàm mục tiêu tuyến tính c.M.
 
-## 🛠️ Công Nghệ và Thư viện
+## Công Nghệ và Thư viện
 
 Ngôn ngữ lập trình được sử dụng là C++.
 
@@ -27,7 +27,7 @@ Ngôn ngữ lập trình được sử dụng là C++.
 * **Thư viện ILP:** Gurobi/OR-Tools
 * **Công cụ khác:** Git, GitHub
 
-## 💻 Hướng Dẫn Cài Đặt và Chạy Dự Án
+##  Hướng Dẫn Cài Đặt và Chạy Dự Án
 
 ### 1. Yêu Cầu Tiên Quyết (Prerequisites)
 
@@ -67,7 +67,7 @@ Ngôn ngữ lập trình được sử dụng là C++.
    ./petri test.pnml
    ```
 
-## 🧑‍💻 Thông Tin Nhóm và Tác Giả
+##  Thông Tin Nhóm và Tác Giả
 
 Bài tập này được thực hiện bởi nhóm 5 sinh viên lớp L02.
 
