@@ -82,6 +82,6 @@ Bài tập này được thực hiện bởi nhóm 5 sinh viên lớp L02.
 | Trịnh Thanh Bình | 2310313 | 
 | Trần Nhật Anh  | 2310150 | 
 | Trang Hiểu Nghĩa | 2312279 | 
-| Đoàn Đức Huy | 2210501 | 
+| Đoàn Đức Duy | 2210501 | 
 
 **Email liên hệ:** anh.nguyennghe@hcmut.edu.vn
