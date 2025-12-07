@@ -53,9 +53,14 @@ Ngôn ngữ lập trình được sử dụng là C++.
     ```bash
     cd ten-du-an
     ```
-3.  **Website để tạo và lấy file test.pnml:**
+3.  **Tạo và lấy file pnml từ website:**
     https://pes.vsb.cz/petrineteditor/#/model
-4.  **Chạy Chương trình:**
+4. **Thay đổi tên file pnml muốn chạy (mặc định là file test.pnml của nhóm)**
+   ```bash
+   BDDManager manager("<tên file pnml>.pnml"); //Dòng code này ở trong main.cpp và Task4_Deadlock.cpp
+
+   
+5.  **Chạy Chương trình:**
    * **task 1, 2, 3, 5:**
    ```bash
    g++ main.cpp BDDManager.cpp -o petri -std=c++17 -ltinyxml2 -lcudd
